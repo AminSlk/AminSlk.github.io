@@ -48,7 +48,7 @@ linkedin_username: amin-slk
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Experienced Senior Site Reliability Engineer with 6 years of hands-on experience in building and maintaining highly available and scalable infrastructure. Proficient in designing, optimizing, and deploying robust systems across cloud environments (GCP, AWS) and Kubernetes clusters, supporting hundreds of microservices with high performance and reliability. Skilled in DevOps practices, cloud automation, backend development, and observability using cutting-edge technologies like Terraform, Datadog, and Ansible. Currently working as an SRE in freiheit.com technologies.
+  Experienced Site Reliability Engineer with 6 years of experience in building and maintaining highly available infrastructure. Proficient in designing, optimizing, and deploying robust systems across cloud environments (GCP, AWS) and Kubernetes clusters. Skilled in DevOps practices with technologies like Terraform and Datadog and experienced in back-end development with languages like Golang and Python. Currently working as an SRE in freiheit.com technologies.
 
 content:
   # - title: Projects # Title for the section
@@ -82,16 +82,7 @@ content:
         description: | # this will include new lines to allow paragraphs
             * Improved the performance of <a href="https://github.com/freiheit-com/kuberpult">Kuberpult</a> by 3x by implementing parallelism, optimizing <mark>SQL</mark> queries, and redesigning database and endpoint schemas, enhancing the <mark>Golang</mark> backend and the <mark>React/TypeScript</mark> UI for better performance and maintainability.
             * Set up a dedicated stress-testing <mark>Kubernetes</mark> cluster using <mark>Terraform</mark> and <mark>GCP</mark>, enabling automated performance assessments with <mark>Datadog</mark> monitoring, alerting, and request tracing.
-            * Supported enterprise clients managing 500+ microservices across 30+ Kubernetes clusters, resolving critical issues and ensuring seamless rollouts.
-      - layout: left
-        title: Sotoon Cloud Providers(Assessment Team)
-        link: https://sotoon.ir/
-        # link_text: boringcompany.com
-        sub_title: Full Stack Software Engineer
-        caption: January 2024 - June 2024
-        description: | # this will include new lines to allow paragraphs
-            * Designed and developed the <a href="https://github.com/sotoon/merlin">Merlin</a> Project for employee assessment, utilizing <mark>Django</mark> and Django Rest Framework for the backend and <mark>React</mark> for the frontend, successfully managing data for 200+ employees.
-            * Implemented user-specific dashboards, enabling employees to set goals and propose assessment processes, while providing HR with a centralized admin interface for profile management and data oversight.
+            * Supported enterprise clients managing 500+ microservices across 30+ Kubernetes clusters managed by <mark>ArgoCD</mark>, resolving critical issues and ensuring seamless rollouts.
       - layout: left
         title: Sotoon Cloud Providers(DBaaS Team)
         link: https://sotoon.ir
@@ -102,6 +93,7 @@ content:
             * Collaborated on the implementation of a <mark>Kubernetes</mark> controller using Kubebuilder and <mark>Golang</mark> to manage 500 HA <mark>PostgreSQL</mark> database clusters.
             * Deployed the project as a Software-as-a-Service in AWS Marketplace, utilizing <mark>AWS</mark> tools such as EKS, EC2, CloudWatch, IAM, Cognito, and S3. Preserving a 99.9% service reliability.
             * Developed the backend for the panel of Database-as-a-Service project using <mark>Django REST</mark> framework.
+            Designed and developed the <a href="https://github.com/sotoon/merlin">Merlin</a> Project for employee assessment, utilizing <mark>Django</mark> and Django Rest Framework for the backend and <mark>React</mark> for the frontend, successfully managing data for 200+ employees.
       - layout: left
         title: Sotoon Cloud Providers(Backbone Team)
         link: https://sotoon.ir
