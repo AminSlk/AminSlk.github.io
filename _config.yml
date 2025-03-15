@@ -1,39 +1,39 @@
 # Site
-repository: sproogen/resume-theme
+repository: AminSlk/AminSlk.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Amin Salarkia
+title: Senior Site Reliability Engineer
+email: salarkiama@gmail.com
+website: https://aminslk.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  AminSlk
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: aminn_salar
+linkedin_username: amin-slk
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +48,98 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  Experienced Senior Site Reliability Engineer with 6 years of hands-on experience in building and maintaining highly available and scalable infrastructure. Proficient in designing, optimizing, and deploying robust systems across cloud environments (GCP, AWS) and Kubernetes clusters, supporting hundreds of microservices with high performance and reliability. Skilled in DevOps practices, cloud automation, backend development, and observability using cutting-edge technologies like Terraform, Datadog, and Ansible. Currently working as an SRE in freiheit.com technologies.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+  # - title: Projects # Title for the section
+  #   layout: list # Type of content section (list/text)
+  #   content:
+  #     - layout: top-middle
+  #       title: Super awesome project
+  #       link: github.com/sproogen
+  #       # link_text: Project Website
+  #       additional_links:
+  #         - title:  sproogen/modern-resume-theme
+  #           icon: fab fa-github
+  #           url: github.com/sproogen/modern-resume-theme
+  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+  #         #   icon: fab fa-github
+  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+  #       quote: >
+  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+  #       description: | # this will include new lines to allow paragraphs
+  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
+        title: freiheit.com technologies
+        link: freiheit.com
         # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        sub_title: Senior Site Reliability Engineer
+        caption: June 2024 - Present
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            * Improved the performance of <a href="https://github.com/freiheit-com/kuberpult">Kuberpult</a> by 3x by implementing parallelism, optimizing <mark>SQL</mark> queries, and redesigning database and endpoint schemas, enhancing the <mark>Golang</mark> backend and the <mark>React/TypeScript</mark> UI for better performance and maintainability.
+            * Set up a dedicated stress-testing <mark>Kubernetes</mark> cluster using <mark>Terraform</mark> and <mark>GCP</mark>, enabling automated performance assessments with <mark>Datadog</mark> monitoring, alerting, and request tracing.
+            * Supported enterprise clients managing 500+ microservices across 30+ Kubernetes clusters, resolving critical issues and ensuring seamless rollouts.
+      - layout: left
+        title: Sotoon Cloud Providers(Assessment Team)
+        link: https://sotoon.ir/
+        # link_text: boringcompany.com
+        sub_title: Full Stack Software Engineer
+        caption: January 2024 - June 2024
+        description: | # this will include new lines to allow paragraphs
+            * Designed and developed the <a href="https://github.com/sotoon/merlin">Merlin</a> Project for employee assessment, utilizing <mark>Django</mark> and Django Rest Framework for the backend and <mark>React</mark> for the frontend, successfully managing data for 200+ employees.
+            * Implemented user-specific dashboards, enabling employees to set goals and propose assessment processes, while providing HR with a centralized admin interface for profile management and data oversight.
+      - layout: left
+        title: Sotoon Cloud Providers(DBaaS Team)
+        link: https://sotoon.ir
+        # link_text: boringcompany.com
+        sub_title: Senior Site Reliability Engineer
+        caption: April 2022 - January 2024
+        description: | # this will include new lines to allow paragraphs
+            * Collaborated on the implementation of a <mark>Kubernetes</mark> controller using Kubebuilder and <mark>Golang</mark> to manage 500 HA <mark>PostgreSQL</mark> database clusters.
+            * Deployed the project as a Software-as-a-Service in AWS Marketplace, utilizing <mark>AWS</mark> tools such as EKS, EC2, CloudWatch, IAM, Cognito, and S3. Preserving a 99.9% service reliability.
+            * Developed the backend for the panel of Database-as-a-Service project using <mark>Django REST</mark> framework.
+      - layout: left
+        title: Sotoon Cloud Providers(Backbone Team)
+        link: https://sotoon.ir
+        # link_text: boringcompany.com
+        sub_title: Site Reliability Engineer
+        caption: September 2021 - April 2022
+        description: | # this will include new lines to allow paragraphs
+            * Maintained a Traefik gateway for 20 <mark>gRPC</mark> services and a Kubernetes cluster for AI services, providing reliable and scalable infrastructure for client-facing applications.
+            * Engineered a logging and billing system for 10+ services using <mark>Golang</mark>, <mark>Kafka</mark>, <mark>Spark</mark>, HDFS and Apache Druid; increased billing accuracy to 95% in 6 months.
+            * Played a key role in maintaining code quality by reviewing and providing feedback on over 100 Git merge requests.
+      - layout: left
+        title: Sotoon Cloud Providers(AI Team)
+        link: https://sotoon.ir
+        # link_text: boringcompany.com
+        sub_title: Machine Learning Software Engineer
+        caption: June 2019 - September 2021
+        description: | # this will include new lines to allow paragraphs
+            * Collaborated with data scientists to develop and deploy 5+ AI models, using <mark>PyTorch</mark> and Tensorflow on <mark>GRPC</mark> protocol, ensuring high-performance and reliable service for a user base of over 10 million.
+            * Managed the deployment of microservices on over 20 GPU and CPU servers, utilizing DevOps tools such as <mark>Prometheus</mark>, GitLab <mark>CI/CD</mark>, <mark>Grafana</mark>, <mark>Docker</mark>, and <mark>Ansible</mark> to ensure smooth deployment and good observability.
+            * <mark>Mentored</mark> a junior developer, guiding  in learning many backend engineering techniques, and contributing to the growth of the team.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: Sharif University of Technology
+        caption: September 2016 -  January 2021
+        sub_title: BSc Computer Engineering
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+          GPA: 3.4
 
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Alongside my interests in software & Infrastructure engineering, some of my other interests and hobbies are:
+      - Swimming
+      - Playing Boardgames
+      - Playing Guitar
 
 # Footer
 footer_show_references: true
